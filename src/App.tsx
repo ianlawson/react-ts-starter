@@ -9,16 +9,17 @@ const App: React.FC = () => {
 	};
 
 	return (
-		<div className="app-container">
+		<main>
 			<h1>React App</h1>
 			<p>
 				A simple React project built with TypeScript, React Router, and Biome.
+				<br />
 				Configured for easy deployment to GitHub Pages.
 			</p>
 			<button type="button" onClick={handleClick}>
 				Clicked {count} times
 			</button>
-		</div>
+		</main>
 	);
 };
 
